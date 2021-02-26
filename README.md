@@ -24,7 +24,7 @@
 
 
 ## front 페이지 접속방법
-1. http://localhost:3000<http://localhost:3000> 에 접속한다.
+1. <http://localhost:3000> 에 접속한다.
 2. 로그인페이지가 나오면 dig04@gmail.com, 1234 입력하여 메인 대시보드에 진입한다.
 3. 좌측 메뉴에서 Users, Todos가 주요 예제임
 

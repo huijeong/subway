@@ -17,6 +17,7 @@
 
 
 ## REST 호출 부터 View에 데이터 뿌리는 방법
+
 1.  ```[src/actions/types.js]``` 에 타입을 추가한다.
 
 ```javascript
@@ -24,9 +25,7 @@ export const GET_TODOS='GET_TODOS';
 ``` 
 
 
-
 2. ```[src/actions/]```  디렉토리 내에 todos.js 파일을 생성한다. (todos는 예시, 실제로는 업무명 약어)
-
 
 
 3. ```[src/actions/todos.js]``` 내에 액션 함수를 추가한다. 
@@ -43,9 +42,7 @@ export const getTodos = () => async (dispatch, getState) => {
 ``` 
 
 
-
 4. ```[src/reducers/]``` 디렉토리 내에 todos.js 파일을 생성한다. (todos는 예시, 실제로는 업무명 약어)
-
 
 
 5. ```[src/reducers/todos.js]``` 내에 리듀서 부분을 추가한다.
