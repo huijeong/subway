@@ -9,8 +9,8 @@
 
 
 ## Getting started
-1. ```[git clone http://bitbuck.com/subway-admin]``` 으로 프로젝트 복제 
-2. ```[cd subway-admin]``` 으로 디렉토리 이동
+1. ```[git clone http://bitbuck.com/subway]``` 으로 프로젝트 복제 
+2. ```[cd subway]``` 으로 디렉토리 이동
 3. ```[sudo pip3 install pipenv]``` 으로 pipenv 설치 
 4. ```[pipenv shell]``` 으로 가상환경 들어가기
 5. ```[pipenv install]``` 으로 의존성 프레임워크 설치하기 (python 관련)
@@ -21,6 +21,13 @@
 ## Run Application
 1. ```[backend]``` 디렉토리로 이동해서 ```[python manage.py runserver]``` 명령어로 백앤드 서버 실행  (반드시 ```[pipenv shell]``` 명령어로 가상환경 들어가서 실행해야함)
 2. ```[fronend]``` 디렉토리로 이동해서 ```[npm run start]``` 또는 ```[yarn start]``` 명령어로 프론트앤드 서버 띄우기
+
+
+## front 페이지 접속방법
+1. http://localhost:3000<http://localhost:3000> 에 접속한다.
+2. 로그인페이지가 나오면 dig04@gmail.com, 1234 입력하여 메인 대시보드에 진입한다.
+3. 좌측 메뉴에서 Users, Todos가 주요 예제임
+
 
 
 ## Built With   
