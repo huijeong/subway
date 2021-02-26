@@ -136,7 +136,7 @@ export default connect(mapStateToProps, { getTodos })(TodoListView); // TodoList
 ``` 
 
 
-7. ADD, DELETE, EDIT 의 경우에는 ```[src/containers/todos/TodoListView/Toolbar.js]```를 참조한다. 
+* ADD, DELETE, EDIT 의 경우에는 ```[src/containers/todos/TodoListView/Toolbar.js]```를 참조한다. 
 
 
 
