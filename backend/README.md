@@ -10,7 +10,9 @@
 
 ## How to create directory for django
 1. ```[python manage.py startapp app_name]```
+
 2. ```[backend/settings.py]``` 
+
     ```python 
     # Application definition
 
@@ -27,6 +29,7 @@
 
 
 3. 장고에서 startapp으로 만들면 기본적으로 아래의 파일이 자동 생성된다.
+
     * ```[admin.py]``` : 어드민에서 ```[models.py]``` 에 정의된 데이터중 CRUD하고 싶은 필드 선택한다. 
     * ```[apps.py]``` :  앱 설정을 위한 파일
     * ```[models.py]``` : 앱에서 사용할 모델들 정보를 저장한다.  
@@ -36,6 +39,7 @@
 
 
 4. 3에서 나열된 파일을 수정완료하였으면 다음의 구문으로 마이그레이션?을 해준다.
+
     ```bash
     python manage.py makemigrations
     python manage.py migrate
