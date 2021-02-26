@@ -9,7 +9,7 @@
 
 
 ## How to create directory for django
-1. ```[python manage.py startapp app_name]```
+1. ```[python manage.py startapp todos]``` 여기서 todos에는 만들고자 하는 앱(업무명)이 들어가면 됨.
 
 2. ```[backend/settings.py]``` 
 
@@ -23,7 +23,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app_name', ## added 
+    'todos', ## added ## 업무명(앱명) 여기서는 todos 
 ]
 ```
 
@@ -44,3 +44,7 @@ INSTALLED_APPS = [
     python manage.py makemigrations
     python manage.py migrate
     ```
+
+5. 장고 어드민 접속 방법  (id : dig04@gmail.com, pw: 1234)
+
+    http://localhost:8000/admin<http://localhost:8000/admin>
