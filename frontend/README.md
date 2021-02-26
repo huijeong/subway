@@ -23,7 +23,11 @@
 export const GET_TODOS='GET_TODOS';
 ``` 
 
+
+
 2. ```[src/actions/]```  디렉토리 내에 todos.js 파일을 생성한다. (todos는 예시, 실제로는 업무명 약어)
+
+
 
 3. ```[src/actions/todos.js]``` 내에 액션 함수를 추가한다. 
 
@@ -38,7 +42,11 @@ export const getTodos = () => async (dispatch, getState) => {
 }
 ``` 
 
+
+
 4. ```[src/reducers/]``` 디렉토리 내에 todos.js 파일을 생성한다. (todos는 예시, 실제로는 업무명 약어)
+
+
 
 5. ```[src/reducers/todos.js]``` 내에 리듀서 부분을 추가한다.
 
@@ -60,6 +68,8 @@ export default (state={}, action) => {
     }
 }
 ``` 
+
+
 
 6. ```[src/containers/todos/TodoListView/index.js]``` 파일을 만들고 다음 코드를 추가한다.
 
@@ -144,6 +154,8 @@ const mapStateToProps = (state) => ({ // state 를 props 로 연결한다. redux
 
 export default connect(mapStateToProps, { getTodos })(TodoListView); // mapStateToProps와 getTodos 함수를 연결? 한다.. 자세한 동작원리가 궁금하면 redux 문서 찾아보시길 ... 
 ``` 
+
+
 
 
 7. ADD, DELETE, EDIT 의 경우에는 ```[src/containers/todos/TodoListView/Toolbar.js]```를 참조한다. 
