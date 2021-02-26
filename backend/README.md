@@ -13,19 +13,19 @@
 
 2. ```[backend/settings.py]``` 
 
-    ```python 
-    # Application definition
+```python 
+# Application definition
 
-    INSTALLED_APPS = [
-        'django.contrib.admin',
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.messages',
-        'django.contrib.staticfiles',
-        'app_name', ## added 
-    ]
-    ```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'app_name', ## added 
+]
+```
 
 
 3. 장고에서 startapp으로 만들면 기본적으로 아래의 파일이 자동 생성된다.
