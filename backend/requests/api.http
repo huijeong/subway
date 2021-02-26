@@ -1,0 +1,36 @@
+#requests/api.http
+
+# # Send Request 
+GET http://127.0.0.1:8000/api/auth/user
+Authorization: : Token 7bc41d090efc5e83a3302c15f076bc22a9a49547d1b7f9b9f9a99569eb28cc9e
+
+
+####
+
+# # Send Request
+# POST http://127.0.0.1:8000/api/auth/register
+# Content-Type: application/json
+
+# {
+#     "nickname":"dig04",
+#     "email":"dig04@gmail.com",
+#     "password":"1234"
+# }
+
+
+###
+
+# # Send Request
+# POST http://127.0.0.1:8000/api/auth/logout
+# Authorization: Token 4985de1f1614534ee3dd261802072b4abf21c51b0fa800b3b5bb7217d73c7e17
+
+
+# Send Request
+# POST http://127.0.0.1:8000/api/auth/login
+# Content-Type: application/json
+
+# {
+#     "nickname":"dig04",
+#     "email":"dig04@gmail.com",
+#     "password":"1234"
+# }
